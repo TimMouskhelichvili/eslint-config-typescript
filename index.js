@@ -172,6 +172,13 @@ module.exports = {
         "no-useless-computed-key": 2,
         "callback-return": 2,
         "global-require": 2,
-        "no-path-concat": 2
+        "no-path-concat": 2,
+        "sort-keys": [
+            "error", 
+            "asc", {
+                "caseSensitive": true, 
+                "natural": false
+            }
+        ]
     }
 };
