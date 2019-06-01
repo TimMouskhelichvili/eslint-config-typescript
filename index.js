@@ -151,7 +151,7 @@ module.exports = {
                 "after": true
             }
         ],
-        "no-confusing-arrow": 2,
+        "no-confusing-arrow": ["error", {"allowParens": true}],
         "prefer-const": 2,
         "prefer-arrow-callback": 2,
         "sort-imports": [
