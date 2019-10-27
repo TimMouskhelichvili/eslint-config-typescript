@@ -1,184 +1,110 @@
 module.exports = {
-    "rules": {
-        "@typescript-eslint/generic-type-naming": 2,
-        "@typescript-eslint/member-naming": 2,
-        "@typescript-eslint/member-ordering": 2,
-        "@typescript-eslint/no-unnecessary-type-assertion": 2,
-        "@typescript-eslint/unified-signatures": 2,
-        "linebreak-style": [
-            "error",
-            "unix"
+    'rules': {
+        'indent': ['error', 4, { 'SwitchCase': 1 }],
+        'quotes': ['error', 'single'],
+        'linebreak-style': [
+            'error',
+            'windows'
         ],
-        "eol-last": "error",
-        "quotes": [
-            "error",
-            "single"
+        'semi': [
+            'error',
+            'always'
         ],
-        "semi": [
-            "error",
-            "always"
-        ],
-        "indent": "off",
-        "comma-dangle": [
-            "error",
-            "never"
-        ],
-        "no-await-in-loop": 2,
-        "array-callback-return": 2,
-        "block-scoped-var": 2,
-        "complexity": [
-            "error",
-            5
-        ],
-        "eqeqeq": 2,
-        "dot-notation": 2,
-        "max-classes-per-file": [
-            "error",
-            1
-        ],
-        "no-else-return": 2,
-        "no-lone-blocks": 2,
-        "no-loop-func": 2,
-        "no-magic-numbers": 2,
-        "vars-on-top": 2,
-        "no-multi-spaces": 2,
-        "require-await": 2,
-        "yoda": 2,
-        "no-shadow": 2,
-        "block-spacing": 2,
-        "camelcase": 2,
-        "function-paren-newline": 2,
-        "implicit-arrow-linebreak": [
-            "error",
-            "beside"
-        ],
-        "jsx-quotes": [
-            "error",
-            "prefer-single"
-        ],
-        "key-spacing": [
-            "error",
-            {
-                "multiLine": {
-                    "beforeColon": false,
-                    "afterColon": true
-                },
-                "align": {
-                    "beforeColon": true,
-                    "afterColon": true,
-                    "on": "colon"
+
+        '@typescript-eslint/no-inferrable-types': 0,
+        '@typescript-eslint/ban-ts-ignore': 0,
+        '@typescript-eslint/interface-name-prefix': 0,
+        '@typescript-eslint/no-parameter-properties': 0,
+        '@typescript-eslint/explicit-function-return-type': 2,
+        '@typescript-eslint/explicit-member-accessibility': 2,
+
+        'jsdoc/check-param-names': 2,
+        'jsdoc/check-tag-names': 2,
+        'jsdoc/check-types': 2,
+        'jsdoc/newline-after-description': 0,
+        'jsdoc/require-description-complete-sentence': 2,
+        'jsdoc/require-example': 0,
+        'jsdoc/require-hyphen-before-param-description': 2,
+        'jsdoc/require-param': 2,
+        'jsdoc/require-param-description': 2,
+        'jsdoc/require-param-name': 2,
+        'jsdoc/require-param-type': 2,
+        'jsdoc/require-returns-description': 0,
+        'jsdoc/require-returns-type': 0,
+        'jsdoc/require-jsdoc': [
+            'error', {
+                'require': {
+                    'ClassDeclaration': false,
+                    'MethodDefinition': true
                 }
             }
         ],
-        "keyword-spacing": [
-            "error",
-            {
-                "before": true
-            }
-        ],
-        "max-depth": [
-            "error",
-            2
-        ],
-        "max-len": [
-            "error",
-            {
-                "code": 100
-            }
-        ],
-        "max-lines": [
-            "error",
-            {
-                "max": 150
-            }
-        ],
-        "max-lines-per-function": [
-            "error",
-            {
-                "max": 25
-            }
-        ],
-        "max-nested-callbacks": [
-            "error",
-            2
-        ],
-        "max-params": [
-            "error",
-            {
-                "max": 3
-            }
-        ],
-        "max-statements": [
-            "error",
-            {
-                "max": 10
-            }
-        ],
-        "max-statements-per-line": [
-            "error",
-            {
-                "max": 1
-            }
-        ],
-        "new-cap": [
-            "error",
-            {
-                "newIsCap": true
-            }
-        ],
-        "no-lonely-if": 2,
-        "no-whitespace-before-property": 2,
-        "nonblock-statement-body-position": [
-            "error",
-            "beside"
-        ],
-        "object-curly-spacing": [
-            "error",
-            "always"
-        ],
-        "arrow-body-style": [
-            "error",
-            "as-needed"
-        ],
-        "arrow-parens": [
-            "error",
-            "always"
-        ],
-        "arrow-spacing": [
-            "error",
-            {
-                "before": true,
-                "after": true
-            }
-        ],
-        "no-confusing-arrow": ["error", {"allowParens": true}],
-        "prefer-const": 2,
-        "prefer-arrow-callback": 2,
-        "sort-imports": [
-            "error",
-            {
-                "ignoreCase": false,
-                "ignoreDeclarationSort": false,
-                "ignoreMemberSort": false,
-                "memberSyntaxSortOrder": [
-                    "none",
-                    "all",
-                    "multiple",
-                    "single"
-                ]
-            }
-        ],
-        "no-var": 2,
-        "no-useless-computed-key": 2,
-        "callback-return": 2,
-        "global-require": 2,
-        "no-path-concat": 2,
-        "sort-keys": [
-            "error", 
-            "asc", {
-                "caseSensitive": true, 
-                "natural": false
-            }
-        ]
+
+        'eqeqeq': [2, 'smart'],
+        'complexity': [2, 6],
+        'no-else-return': 2,
+        'no-eval': 2,
+        'no-eq-null': 2,
+        'no-lone-blocks': 2,
+        'constructor-super': 2,
+        'no-const-assign': 2,
+        'no-var': 2,
+        'no-this-before-super': 2,
+        'prefer-const': 2,
+        'no-dupe-class-members': 2,
+        'max-lines-per-function': ['error', 40],
+        'max-depth': ['error', 2],
+        'max-len': ['error', { 'code': 140 }],
+        'max-lines': ['error', {
+            'max': 250
+        }],
+        'max-params': ['error', {
+            'max': 4
+        }],
+        'max-statements': ['error', 20],
+        'array-bracket-spacing': [2, 'always'],
+        'block-spacing': [2, 'always'],
+        'camelcase': [2, { 'properties': 'always' }],
+        'no-lonely-if': 2,
+        'no-shadow': 2,
+        'no-shadow-restricted-names': 2,
+        'no-console': 2,
+        'no-alert': 2,
+        'no-dupe-args': 2,
+        'no-constant-condition': 2,
+        'no-dupe-keys': 2,
+        'no-duplicate-case': 2,
+        'no-empty': 2,
+        'no-extra-boolean-cast': 2,
+        'no-extra-semi': 2,
+        'no-fallthrough': 2,
+        'no-func-assign': 2,
+        'no-unreachable': 2,
+        'no-unsafe-negation': 2,
+        'require-atomic-updates': 2,
+        'use-isnan': 2,
+        'max-classes-per-file': ['error', 1],
+        'no-extra-bind': 2,
+        'no-redeclare': 2,
+        'no-return-assign': 2,
+        'no-self-assign': 2,
+        'no-self-compare': 2,
+        'no-sequences': 2,
+        'no-unmodified-loop-condition': 2,
+        'no-useless-escape': 2,
+        'no-useless-return': 2,
+        'yoda': 2,
+        'no-unused-vars': 2,
+        'block-spacing': 2,
+        'no-whitespace-before-property': 2,
+        'object-curly-spacing': ['error', 'always'],
+        'prefer-template': 2,
+        'prefer-arrow-callback': 2,
+        'no-this-before-super': 2,
+        'no-duplicate-imports': 2,
+        'no-const-assign': 2,
+        'constructor-super': 2,
+        'sort-keys': ['error', 'asc', { 'caseSensitive': true, 'natural': false }],
+        'keyword-spacing': ['error', { 'before': true, 'after': true }]
     }
 };
