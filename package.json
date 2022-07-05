@@ -1,11 +1,8 @@
 {
-  "name": "@jasson2788/eslint-config-typescript",
+  "name": "@tim.mouskhelichvili/eslint-config-typescript",
   "version": "2.0.0",
-  "description": "",
+  "description": "Different eslint rules to keep my projects clean.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Tim Mouskhelichvili",
   "license": "ISC",
   "dependencies": {

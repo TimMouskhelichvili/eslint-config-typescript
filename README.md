@@ -1,2 +1,3 @@
-# My eslint config for typescript
-Some eslint rules
+# Eslint Rules
+
+Different eslint rules to keep my projects clean.
