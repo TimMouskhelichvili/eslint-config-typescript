@@ -44,6 +44,7 @@ module.exports = {
 		'@typescript-eslint/space-before-function-paren': 2,
 		'@typescript-eslint/keyword-spacing': 2,
 		'@typescript-eslint/type-annotation-spacing': 2,
+		'@typescript-eslint/explicit-member-accessibility': 'error',
 
 		'jsdoc/check-param-names': 2,
 		'jsdoc/check-tag-names': 2,
