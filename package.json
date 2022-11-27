@@ -1,17 +1,17 @@
 {
   "name": "@tim.mouskhelichvili/eslint-config-typescript",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Different eslint rules to keep my projects clean.",
   "main": "index.js",
   "author": "Tim Mouskhelichvili",
   "license": "ISC",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.35.1",
-    "@typescript-eslint/parser": "^5.35.1",
-    "eslint": "^8.23.0",
-    "eslint-plugin-jsdoc": "^39.3.6",
-    "eslint-plugin-react": "^7.31.1",
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "eslint": "^8.28.0",
+    "eslint-plugin-jsdoc": "^39.6.4",
+    "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "jsdoc": "^3.6.11"
+    "jsdoc": "^4.0.0"
   }
 }
