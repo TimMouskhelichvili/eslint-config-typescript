@@ -41,9 +41,6 @@ module.exports = {
 		'@typescript-eslint/no-parameter-properties': 0,
 		'@typescript-eslint/explicit-function-return-type': 2,
 		'@typescript-eslint/no-shadow': [ 'error' ],
-		'@typescript-eslint/space-before-function-paren': 2,
-		'@typescript-eslint/keyword-spacing': 2,
-		'@typescript-eslint/type-annotation-spacing': 2,
 		'@typescript-eslint/explicit-member-accessibility': 'error',
 
 		'jsdoc/check-param-names': 2,
@@ -73,6 +70,7 @@ module.exports = {
 		'no-unused-vars': 0,
         'space-in-parens': 2,
 		'space-before-blocks': 2,
+		"space-before-function-paren": ["error", "always"],
         'arrow-spacing': 2,
         'key-spacing': 2,
 		'brace-style': 2,
