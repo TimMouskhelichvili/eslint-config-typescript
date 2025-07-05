@@ -1,6 +1,6 @@
 {
   "name": "@tim.mouskhelichvili/eslint-config-typescript",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Different eslint rules to keep my projects clean.",
   "main": "index.js",
   "author": "Tim Mouskhelichvili",
@@ -8,7 +8,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^8.35.1",
     "@typescript-eslint/parser": "^8.35.1",
-    "eslint": "^9.30.1",
+    "eslint": "8.57.1",
     "eslint-plugin-jsdoc": "^51.3.3",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^5.2.0",
